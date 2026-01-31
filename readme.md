@@ -64,29 +64,30 @@ Basic familiarity with Linux and Python is assumed.
 
 ## Repository Structure
 
+<pre>
 flask-vps-production-guide/
 │
 ├── README.md
 │
 ├── docs/
-│ ├── 01-vps-initial-setup.md
-│ ├── 02-linux-users-and-permissions.md
-│ ├── 03-python-virtualenv-and-flask.md
-│ ├── 04-nginx-and-process-user.md
-│ ├── 05-postgresql-setup.md
-│ ├── 06-postgresql-authentication.md
-│ └── 07-common-problems-and-fixes.md
+│   ├── 01-vps-initial-setup.md
+│   ├── 02-linux-users-and-permissions.md
+│   ├── 03-python-virtualenv-and-flask.md
+│   ├── 04-nginx-and-process-user.md
+│   ├── 05-postgresql-setup.md
+│   ├── 06-postgresql-authentication.md
+│   └── 07-common-problems-and-fixes.md
 │
 ├── scripts/
-│ ├── create_user.sh
-│ ├── fix_permissions.sh
-│ └── postgres_cleanup.sql
+│   ├── create_user.sh
+│   ├── fix_permissions.sh
+│   └── postgres_cleanup.sql
 │
 └── example-app/
-├── app.py
-├── requirements.txt
-└── static/
-
+    ├── app.py
+    ├── requirements.txt
+    └── static/
+</pre>
 
 ---
 
