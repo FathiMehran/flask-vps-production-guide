@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask VPS Example App</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 80px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 6px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            background: #eef7ee;
+            border-left: 4px solid #4caf50;
+        }
+        code {
+            background: #eee;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Flask VPS Example Application</h1>
+
+    <p>
+        If you are seeing this page, the Flask application is running correctly
+        behind Gunicorn and is reachable through Nginx.
+    </p>
+
+    <div class="status">
+        <strong>Status:</strong> Application is up and responding.
+    </div>
+
+    <p>
+        You can test file write permissions by visiting:
+        <br>
+        <code>/write-test</code>
+    </p>
+
+    <p>
+        This page is intentionally simple and designed for validation and learning
+        purposes only.
+    </p>
+</div>
+
+</body>
+</html>
+
